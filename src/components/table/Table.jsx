@@ -67,11 +67,11 @@ export default function Table() {
             if (way === -1) newarr = newarr.reverse()
             if (way === 0) newarr = unTouchData
         }
+        setPage(1)
         setInitData(newarr)
     }
 
     function search() {
-        console.log(searchBox)
         const search = unTouchData.filter(function (item) {
             for (let value of Object.keys(item)) {
                 if (String(item[value]).includes(searchBox)) return true
