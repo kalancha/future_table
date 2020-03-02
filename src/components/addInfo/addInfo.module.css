@@ -2,17 +2,18 @@
     width     : 70%;
     margin    : auto;
     margin-top: 20px;
+    font-size : 23px;
     padding   : 20px 20px;
     border    : rgba(0, 0, 0, 0.2);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .addInfo>textarea {
-    width: 100%;
+    width        : 100%;
     font-family  : "times new roman";
-    font-size    : 15.33px;
+    font-size    : 23px;
     color        : #000;
     border       : 2px solid #999;
     border-radius: 3px;
-    height: 80px;
+    height       : 80px;
 }
