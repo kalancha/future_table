@@ -1,0 +1,27 @@
+.striped {
+    border-collapse: separate;
+    border-spacing : 10px;
+    border         : 1px solid black;
+}
+
+
+.th {
+    display        : flex;
+    justify-content: center;
+}
+
+.th>button {
+    margin-left: 5px;
+}
+
+.table>table {
+    width : 70%;
+    margin: auto;
+}
+.table * {
+   font-size: 25px;
+}
+
+.table {
+    padding-top: 40px;
+}

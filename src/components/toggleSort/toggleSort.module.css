@@ -1,0 +1,26 @@
+.but {
+    background-repeat: no-repeat;
+    background-color: white;
+    border: none;
+    width            : 25px;
+    height           : 25px;
+}
+
+.but:focus{
+    background-color: white;
+}
+
+.neutral {
+    background-image: url('../../icons/down-arrow.png');
+    background-size : contain;
+}
+
+.down {
+    background     : url('../../icons/down.png');
+    background-size: contain;
+}
+
+.up {
+    background-image: url('../../icons/up.png');
+    background-size : contain;
+}

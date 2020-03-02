@@ -1,0 +1,59 @@
+.form {
+    position  : relative;
+    width     : 70%;
+    border    : 1px solid black;
+    margin    : auto;
+    margin-top: 7px;
+}
+
+.labels {
+    display  : flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.labels>label {
+    padding: 10px;
+    margin : 0 20px;
+}
+
+.labels input {
+    margin-left: 2px;
+    font-size: 20px;
+}
+
+.close {
+    position         : absolute;
+    top              : 5px;
+    right            : 5px;
+    margin-left      : 10px;
+    background-image : url('../../icons/close.png');
+    background-size  : cover;
+    background-repeat: no-repeat;
+    width            : 30px;
+    height           : 30px;
+    border           : none;
+    background-color : #ee5253;
+    border-radius    : 50%;
+}
+
+.submit {
+    display        : flex;
+    justify-content: center;
+}
+
+.submit input {
+    background-color: #5f27cd;
+    border          : none;
+    color           : white;
+    text-align      : center;
+    text-decoration : none;
+    display         : inline-block;
+    font-size       : 20px;
+    border-radius   : 10%;
+    width           : 100px;
+    height          : 50px;
+    padding: 8px;
+    margin : 5px;
+}
